@@ -1,0 +1,97 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+.navbar-nav{
+   padding-right: 4rem !important;
+   font-family: 100 !important;
+   font-size: 1.1rem !important;
+} 
+
+.nav-link:hover {
+  color: rgb(234, 230, 230)!important;
+   text-decoration: underline !important;
+}
+
+.image-container:hover{
+      transform: scale(1.1);
+}
+.image-feature-container{
+  display: flex !important;
+  justify-content: center !important;
+
+}
+.image-feature-container img{
+  width: 13%;
+  margin: 0 40px;
+  height: 170px;
+  border-radius: 6rem 6rem 6rem 6rem;
+}
+.feature-para{
+    position: relative !important;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 1.3rem;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/* tablet */
+
+@media (min-width: 768px) and (max-width: 1023px){
+  .welcome-text{
+          white-space: nowrap;
+          position: relative; 
+          right: 14rem;   
+  }
+}
+
+/*mobile*/
+
+@media (max-width:767px){
+    .welcome-text{
+          position: relative; 
+          white-space: nowrap;
+          right: 24.7rem;
+    }
+  
+}
+@media (max-width:390px){
+    .welcome-text{
+          position: relative; 
+          white-space: nowrap;
+          right: 25.8rem;
+    }
+  
+}
+@media (max-width:393px){
+    .welcome-text{
+          position: relative; 
+          white-space: nowrap;
+          right: 26rem;
+    }
+  
+}
+@media (max-width:360px){
+    .welcome-text{
+          position: relative; 
+          white-space: nowrap;
+          right: 26.8rem;
+    }
+  
+}
+@media (max-width:320px){
+    .welcome-text{
+          position: relative; 
+          white-space: nowrap;
+          right: 28rem;
+    }
+  
+}
+  
+  
