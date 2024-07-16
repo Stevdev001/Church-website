@@ -3,6 +3,8 @@
   margin:0;
   box-sizing: border-box;
 }
+
+/* the css below is for the elements i couldn't find in bootstrap */
 .navbar-nav{
    padding-right: 4rem !important;
    font-family: 100 !important;
@@ -40,6 +42,7 @@ a{
   text-decoration: none;
   color: black;
 }
+   /* I applied this media query to make sure my background color text fits all screen sizes */
 
 /* tablet */
 
@@ -49,6 +52,7 @@ a{
           position: relative; 
           right: 14rem;   
   }
+  
 }
 
 /*mobile*/
