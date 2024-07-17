@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 /* the css below is for the elements i couldn't find in bootstrap */
 .navbar-nav{
    padding-right: 4rem !important;
@@ -18,6 +22,7 @@
 
 .image-container:hover{
       transform: scale(1.1);
+      width: 100%;
 }
 .image-feature-container{
   display: flex !important;
@@ -50,7 +55,10 @@ a{
   .welcome-text{
           white-space: nowrap;
           position: relative; 
-          right: 14rem;   
+          right: 14rem;  
+  }
+  .arrow-container a{
+    display: content;
   }
   
 }
@@ -62,6 +70,7 @@ a{
           position: relative; 
           white-space: nowrap;
           right: 24.7rem;
+          overflow-x: hidden;
     }
   
 }
@@ -70,6 +79,7 @@ a{
           position: relative; 
           white-space: nowrap;
           right: 25.8rem;
+          overflow-x: hidden;
     }
   
 }
@@ -78,6 +88,7 @@ a{
           position: relative; 
           white-space: nowrap;
           right: 26rem;
+          overflow-x: hidden;
     }
   
 }
@@ -86,6 +97,7 @@ a{
           position: relative; 
           white-space: nowrap;
           right: 26.8rem;
+          overflow-x: hidden;
     }
   
 }
@@ -94,6 +106,7 @@ a{
           position: relative; 
           white-space: nowrap;
           right: 28rem;
+          overflow-x: hidden;
     }
   
 }
