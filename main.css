@@ -5,6 +5,7 @@
 }
 
 body{
+  max-width:100%;
   overflow-x: hidden;
 }
 
@@ -20,10 +21,10 @@ body{
    text-decoration: underline !important;
 }
 
-/* .image-container:hover{
+.image-container:hover{
       transform: scale(1.1);
       width: 100%;
-} */
+}
 .image-feature-container{
   display: flex !important;
   justify-content: center !important;
