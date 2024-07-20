@@ -106,7 +106,7 @@ a{
 
 /*mobile*/
 
-@media (max-width:767px){
+@media (max-width:480px) and (min-width:320px){
     .welcome-text{
           position: relative; 
           white-space: nowrap;
@@ -115,6 +115,7 @@ a{
     }
   
 }
+
 @media (max-width:390px){
     .welcome-text{
           position: relative; 
@@ -126,6 +127,7 @@ a{
      .contact-container input{
         width: 100% !important;
         padding-right: 4rem !important;
+        padding: 0.7rem;
     }
 
      .contact-container label{
@@ -153,7 +155,7 @@ a{
      .contact-container input{
         min-width: 100% !important;
         margin-right: 7rem !important;
-
+        padding: 0.7rem;
     }
 
      .contact-container label{
@@ -222,6 +224,7 @@ a{
  .contact-container input{
         min-width: 100% !important;
         margin-right: 7rem !important;
+        padding: 0.7rem !important;
     }
 
      .contact-container label{
